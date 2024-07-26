@@ -18,7 +18,7 @@ public class MainGorilaScript {
         String text = t.getText();
         name = name.substring(name.indexOf("$")+1);
         name = name.substring(0,name.indexOf("Context"));
-        //System.out.println(name);
+       
         return name;
     } else {
         return "Unknown";
@@ -103,7 +103,7 @@ public class MainGorilaScript {
                 writer.write(") {\n");
                 ParseTree ifBlock = t.getChild(2);
                 generateCode(ifBlock, writer, indentLevel+1);
-                // agora vem o else ou o :
+              
                 ParseTree elseOrDoubleDots = t.getChild(3);
                 if (elseOrDoubleDots.getText() == ":"){
                     writer.write(indent);
@@ -121,7 +121,7 @@ public class MainGorilaScript {
                 writer.write(") {\n");
                 ParseTree elseifBlock = t.getChild(2);
                 generateCode(elseifBlock, writer, indentLevel+1);
-                // agora vem o else ou outro  :
+            
                 ParseTree elseOrElsif = t.getChild(3);
                 if (elseOrElsif.getText() == "elsif"){
                     writer.write(indent);
@@ -270,7 +270,7 @@ public class MainGorilaScript {
         }
 
         File outputDir = new File("out");
-        outputDir.mkdir(); // Cria a pasta 'out' se ela não existir
+        outputDir.mkdir(); 
 
         File outputFile = new File(outputDir, "GeneratedCode.java");
         BufferedWriter writer = new BufferedWriter(new FileWriter(outputFile));
