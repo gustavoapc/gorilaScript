@@ -3,43 +3,18 @@ public class GeneratedCode {
         main();
 }
 
-    public static int soma(float a , double b ) {
-        int d = 1;
-        for (int c= 0; c <= 10 ; c++) {
-            a = c + b;
-        }
-        if (a != b ) {
-            a = a + 1;
-        } else {
-            if (b == c ) {
-                a = a - 1;
-            } else {
-                a = a + 1;
-            }
-        }
-        if (a == b || b <= a ) {
-            a = a + 1;
-        } else if (b != a ) {
-            a = a * a;
-        } else {
-            throw new IOException("testando o throw");
-        }
-        while (b > 0 ) {
-            b = b - 1;
+    public static int calcularFatorial(int n ) {
+        int resultado = 1;
+        while (n > 1 ) {
+            resultado = resultado * n;
+            n = n - 1;
         } 
-        try {
-            a = b + c;
-        } catch (Exception e) {
-            a = b - c;
-        }
-        int y = a + b;
-        return a + b;
+        return resultado;
     }
     public static void main() {
-        int a = 10;
-        int b = 5;
-        int c = soma(a, b);
-        System.out.println("Testando o print");
+        int numero = 10;
+        int fatorial = calcularFatorial(numero);
+        System.out.println(fatorial);
     }
 }
 
