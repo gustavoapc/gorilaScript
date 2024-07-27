@@ -3,18 +3,27 @@ public class GeneratedCode {
         main();
 }
 
-    public static int calcularFatorial(int n ) {
-        int resultado = 1;
-        while (n > 1 ) {
-            resultado = resultado * n;
-            n = n - 1;
+    public static float calcularInvestimento(float valorInicial , float taxaJuros , int anos , float aporteMensal ) {
+        float valorFinal = valorInicial;
+        int i = 0;
+        float taxaAux = taxaJuros / 100;
+        float taxaMensal = taxaAux / 12;
+        float multiplicador = 1;
+        int meses = anos * 12;
+        while (i < meses ) {
+            multiplicador = 1 + taxaMensal;
+            valorFinal = valorFinal * multiplicador + aporteMensal;
+            i = i + 1;
         } 
-        return resultado;
+        return valorFinal;
     }
     public static void main() {
-        int numero = 10;
-        int fatorial = calcularFatorial(numero);
-        System.out.println(fatorial);
+        float valorInicial = 1000;
+        float taxaJuros = 5;
+        int anos = 10;
+        float aporteMensal = 100;
+        float valorFinal = calcularInvestimento(valorInicial, taxaJuros, anos, aporteMensal);
+        System.out.println(valorFinal);
     }
 }
 
