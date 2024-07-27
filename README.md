@@ -1,5 +1,6 @@
 # GorilaScript
 
+
 ### Desenvolvedores:
 - Caio César Siqueira dos Santos
 - Gustavo Antônio Porto Cardoso
@@ -14,7 +15,8 @@ A gramatica utilizada para desenvolvimento do GorilaScript está no arquivo `Gor
 
 
 Os arquivos já foram compilados nos testes feitos durante o desenvolvimento e estão preparados para execução do programa.
-Para utilizar gramática e arquivos a partir do passo 0, acesse o arquivo `TUTORIAL.MD`, lá terá o passo a passo para todas execuções
+Para utilizar gramática e arquivos a partir do passo 0, acesse o arquivo **[TUTORIAL.MD](https://github.com/gustavoapc/gorilaScript/blob/main/gorilaScript/TUTORIAL.MD)**
+, lá terá o passo a passo para todas execuções
 
 ### Imagens da interface gráfica:  
 
@@ -30,3 +32,9 @@ Para utilizar gramática e arquivos a partir do passo 0, acesse o arquivo `TUTOR
 
 **Em caso de erro:**  
 ![Erro](https://cdn.discordapp.com/attachments/1235339523114930219/1266875450949636108/image.png?ex=66a6bd34&is=66a56bb4&hm=92306c1b881c2cc8c6c1fe618d3950eb96e54f64a05c6427838598165f6f74d9&)  
+
+
+
+## Mascote do gorilaScript
+
+![Imagem](https://cdn.discordapp.com/attachments/1235339523114930219/1266894741811888162/OIG4.EKovy.jpg?ex=66a6cf2c&is=66a57dac&hm=9cb8ba1f8ccf0a098392c38695ed7b415db01c6908e5bce8af0505af6e0236b7&)
