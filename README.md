@@ -1,11 +1,27 @@
-# projetoCompiladores
-Projeto da disciplina de Compiladores - Universidade de Pernambuco - POLI
+# GorilaScript
 
-## Como rodar o projeto
-Acesse a pasta gorilaScript e leia agora o arquivo HOWTORUN.MD para maiores instruções.
-``` cd gorilaScript ```
+### Desenvolvedores:
+- Caio César Siqueira dos Santos
+- Gustavo Antônio Porto Cardoso
+- Mateus Barbosa de Souza Cavalcanti
 
-Integrantes 
- - Caio Siqueira, o gorila
- - Matheus Barbosa, o mago
- - Gustavo Porto, o guguinha
+
+**GorilaScript** é uma linguagem de programação desenvolvida para a cadeira de Compiladores do periódo 2024.1 utilizando **ANTLR** e **JAVA**. Como Proof of Concept da linguagem, foi desenvolvida uma calculadora de simulação de investimentos.
+A partir do código de GorilaScript, geramos um código em Java que irá se comunicar com uma interface do usuario tanto em CLI como com uma interface gráfica usando Java Swing(Para rodar no Codespaces, deve-se utilizar a CLI)
+
+A gramatica utilizada para desenvolvimento do GorilaScript está no arquivo `GorilaScript.g4` e o seu manual básico de desenvolvimento utilizando a linguagem está no arquivo `gorilaScriptManual.md`
+
+Os arquivos já foram compilados nos testes feitos durante o desenvolvimento e estão preparados a execução do programa.
+Para utilizar gramática e arquivos a partir do passo 0, acessar o arquivo `TUTORIAL.MD` lá terá o passo a passo para todas execuções
+
+### Imagens da interface gráfica:  
+
+
+**Tela inicial:**  
+![Tela inicial](https://cdn.discordapp.com/attachments/1235339523114930219/1266862150668783646/image.png?ex=66a6b0d1&is=66a55f51&hm=9a191f16d6799a82fc77fb878dd1ca067211f3088efa90aeba774906a21f0be6&)  
+
+**Adicionando valores:**  
+![Tela com valores](https://cdn.discordapp.com/attachments/1235339523114930219/1266862531285356574/image.png?ex=66a6b12c&is=66a55fac&hm=9f2ad0ef1535d76d56f042ed7d750aa074fb838ff663c5f86304581e300f5e54&)  
+
+**Resultado:**  
+![Resultado](https://cdn.discordapp.com/attachments/1235339523114930219/1266862621517283409/image.png?ex=66a6b142&is=66a55fc2&hm=0278a26b08d0119132a152ae1ecaa602186ed81675c28e02a2a9e4e041be3cdf&)  
