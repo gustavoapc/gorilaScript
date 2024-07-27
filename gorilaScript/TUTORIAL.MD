@@ -36,5 +36,6 @@ Foi testado e projetado para o Codespaces, porém como o Codespaces não é comp
 ## Guia para utilizar a interface gráfica
 Caso deseje utilizar a **interface gráfica** deverá seguir o passo a instrução abaixo.
 
-**Fazer download do repositório e executar o mesmos passos executando o arquivo "```SwingMain```" ao invés de "```Main```"** 
+**Fazer download do repositório e executar o mesmos passos executando o arquivo "```SwingMain```" ao invés de "```Main```"**.
+
 No Windows, conseguimos sucesso utilizando a IDE **IntelliJ**, recomendamos o uso para executar em **Windows**.
