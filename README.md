@@ -6,13 +6,15 @@
 - Mateus Barbosa de Souza Cavalcanti
 
 
-**GorilaScript** é uma linguagem de programação desenvolvida para a cadeira de Compiladores do periódo 2024.1 utilizando **ANTLR** e **JAVA**. Como Proof of Concept da linguagem, foi desenvolvida uma calculadora de simulação de investimentos.
+**GorilaScript** é uma linguagem de programação desenvolvida para a cadeira de Compiladores do periódo 2024.1 utilizando **ANTLR** e **JAVA** e tem como extensão "`.ban`". Como Proof of Concept da linguagem, foi desenvolvida uma calculadora de simulação de investimentos no arquivo **`gorila.ban`**.
+
 A partir do código de GorilaScript, geramos um código em Java que irá se comunicar com uma interface do usuario tanto em CLI como com uma interface gráfica usando Java Swing(Para rodar no Codespaces, deve-se utilizar a CLI)
 
-A gramatica utilizada para desenvolvimento do GorilaScript está no arquivo `GorilaScript.g4` e o seu manual básico de desenvolvimento utilizando a linguagem está no arquivo `gorilaScriptManual.md`
+A gramatica utilizada para desenvolvimento do GorilaScript está no arquivo `GorilaScript.g4` e o seu manual básico de desenvolvimento utilizando a linguagem está no arquivo `gorilaScriptManual.md`.
 
-Os arquivos já foram compilados nos testes feitos durante o desenvolvimento e estão preparados a execução do programa.
-Para utilizar gramática e arquivos a partir do passo 0, acessar o arquivo `TUTORIAL.MD` lá terá o passo a passo para todas execuções
+
+Os arquivos já foram compilados nos testes feitos durante o desenvolvimento e estão preparados para execução do programa.
+Para utilizar gramática e arquivos a partir do passo 0, acesse o arquivo `TUTORIAL.MD`, lá terá o passo a passo para todas execuções
 
 ### Imagens da interface gráfica:  
 
