@@ -25,3 +25,6 @@ Para utilizar gramática e arquivos a partir do passo 0, acessar o arquivo `TUTO
 
 **Resultado:**  
 ![Resultado](https://cdn.discordapp.com/attachments/1235339523114930219/1266862621517283409/image.png?ex=66a6b142&is=66a55fc2&hm=0278a26b08d0119132a152ae1ecaa602186ed81675c28e02a2a9e4e041be3cdf&)  
+
+**Em caso de erro:**  
+![Erro](https://cdn.discordapp.com/attachments/1235339523114930219/1266875450949636108/image.png?ex=66a6bd34&is=66a56bb4&hm=92306c1b881c2cc8c6c1fe618d3950eb96e54f64a05c6427838598165f6f74d9&)  
