@@ -33,7 +33,8 @@ Foi testado e projetado para o Codespaces, porém como o Codespaces não é comp
 ### 8. Executar o arquivo de comunicação com o usuário:
 ```java Main```
 
-Com esses passo a passo será possível utilizar o código transformado de **gorilaScript** para **Java** e utilizar na simuladora de investimentos. Caso deseje utilizar a **interface gráfica** deverá seguir o passo a passo abaixo.
+## Guia para utilizar a interface gráfica
+Caso deseje utilizar a **interface gráfica** deverá seguir o passo a passo abaixo.
 
 #### Fazer download do repositório e executar o mesmos passos executando o arquivo "```SwingMain```" ao invés de "```Main```" 
 No Windows, conseguimos sucesso utilizando a IDE **IntelliJ**, recomendamos o uso para executar em **Windows**.
