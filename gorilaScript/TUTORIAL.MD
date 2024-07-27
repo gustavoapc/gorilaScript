@@ -34,7 +34,7 @@ Foi testado e projetado para o Codespaces, porém como o Codespaces não é comp
 ```java Main```
 
 ## Guia para utilizar a interface gráfica
-Caso deseje utilizar a **interface gráfica** deverá seguir o passo a instrução abaixo.
+Caso deseje utilizar a **interface gráfica** deverá seguir a instrução abaixo.
 
 **Fazer download do repositório e executar o mesmos passos executando o arquivo "```SwingMain```" ao invés de "```Main```"**.
 
