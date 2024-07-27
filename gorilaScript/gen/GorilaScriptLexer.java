@@ -44,7 +44,7 @@ public class GorilaScriptLexer extends Lexer {
 
 	private static String[] makeLiteralNames() {
 		return new String[] {
-			null, "'fun'", "'('", "')'", "','", "'int'", "'float'", "'String'", "'boolean'", 
+			null, "'fun'", "'('", "')'", "','", "'int'", "'float'", "'string'", "'boolean'", 
 			"'char'", "'double'", "'void'", "'='", "'if'", "'.'", "'else'", "'elsif'", 
 			"'while'", "'for'", "';'", "'++'", "'--'", "'try'", "'catch'", "'return'", 
 			"'throw'", "'*'", "'+'", "'-'", "'/'", "'=='", "'!='", "'!'", "'>'", 

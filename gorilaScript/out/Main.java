@@ -1,4 +1,3 @@
-package out;
 
 import java.util.Scanner;
 
@@ -20,7 +19,7 @@ public class Main {
 
         float valorFinal = GeneratedCode.calcularInvestimento(valorInicial, taxaJuros, anos, aporteMensal);
 
-        System.out.println("O valor final do investimento é: " + valorFinal);
+        System.out.println("O valor final do investimento é: " + valorFinal + " R$");
 
         scanner.close();
     }

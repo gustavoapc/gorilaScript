@@ -12,11 +12,8 @@ fun calcularInvestimento(float valorInicial, float taxaJuros, int anos, float ap
     .
     return valorFinal.
 
-fun main() void
-    float valorInicial = 1000 
-    float taxaJuros = 5 
-    int anos = 10
-    float aporteMensal = 100 
-    float valorFinal = calcularInvestimento(valorInicial, taxaJuros, anos, aporteMensal)
-    print valorFinal
-.
+//Uso da Main em GorilaScript
+
+    //fun main() void
+    //    Corpo da Main
+    // . 
