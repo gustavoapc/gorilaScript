@@ -16,7 +16,7 @@ A gramatica utilizada para desenvolvimento do GorilaScript está no arquivo `Gor
 
 Os arquivos já foram compilados nos testes feitos durante o desenvolvimento e estão preparados para execução do programa.
 Para utilizar gramática e arquivos a partir do passo 0, acesse o arquivo **[TUTORIAL.MD](https://github.com/gustavoapc/gorilaScript/blob/main/gorilaScript/TUTORIAL.MD)**
-, lá terá o passo a passo para todas execuções
+, lá terá o passo a passo para todas execuções.
 
 ### Imagens da interface gráfica:  
 
